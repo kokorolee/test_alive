@@ -119,7 +119,8 @@ body {
   padding: 0; }
 
 .container {
-  width: 768px !important; }
+  width: 768px !important;
+  margin: 0 auto; }
 
 header {
   width: 768px;
