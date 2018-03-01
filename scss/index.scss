@@ -114,7 +114,28 @@ button.see-more{
     letter-spacing: 3px;
   }
 }
-
-
-
 //header
+
+//wrapper
+.wrapper{
+  height: 900px;
+  background: $background_gradient;
+  // background: linear-gradient(to bottom, #fff, #f9f9f9 );
+  padding: 0 30px;
+  .wrapper-title{
+    text-align: center;
+    padding-top: 60px;
+    letter-spacing: 3px;
+  }
+  p.description{
+    color: $color_3;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .custom-select{
+    position: relative;
+    width: 100% !important;
+  }
+
+}
